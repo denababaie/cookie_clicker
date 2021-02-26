@@ -1,0 +1,78 @@
+
+@font-face {
+  font-family: "Wunderpunkt";
+  src: url("public/Wunderpunkt-Bold.ttf") format("ttf");
+         }
+
+body {
+  font-family: "Wunderpunkt";
+  font-weight: 800;
+  font-size: 18px;
+  color: palevioletred;
+}
+
+h1{
+  font-family: "Wunderpunkt";
+  font-size: 50px;
+  color:pink;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 58px;
+  border: none;
+  text-align: center;
+  font-family: sans-serif;
+  font-family: "Wunderpunkt";
+  color: red;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cookieBtn {
+  font-size: 34px;
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  background-size: cover;
+  background-image: url(Cookie.png);
+  border: none;
+  transition: transform 0.1s;
+}
+.cookieBtn:active {
+  transform: scale(0.95);
+}
+
+
+.UpgradeList {
+  padding: 0 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: "Wunderpunkt";
+  background-color: pink;
+  font-size: 30px;
+}
+
+.Upgrade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.buyBtn {
+  background: white;
+  border: 1px solid #999;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 22px;
+  margin-left: 10px;
+  font-family: "Wunderpunkt";
+}
